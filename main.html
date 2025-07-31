@@ -8,19 +8,30 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<img role="img" alt="This is demo image"/>
-	<h1 role="heading">Hi all this is a example</h1>
-	<ul role="list">
-		<li>Hello</li>
-		<li>Demo</li>
-	</ul>
-	<ul role="list">
-		<li role="listitem">Home</li>
-		<li role="listitem">Contact</li>
-	</ul>
-	<nav role="navigation">
-		 <a href="#Home" > Home</a>
-	</nav>
+	 <!-- Heading with ARIA role -->
+  <h1 role="heading">Welcome to Nature Gallery</h1>
+
+  <!-- Navigation with ARIA role -->
+  <nav role="navigation">
+    <ul>
+      <li role="listitem"><a href="#home">Home</a></li>
+      <li role="listitem"><a href="#gallery">Gallery</a></li>
+      <li role="listitem"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Image with ARIA role and alt text -->
+  <img role="img" src="nature.jpg" alt="A beautiful scenic view of nature with mountains and river">
+
+  <!-- Brief description -->
+  <p>This page showcases the beauty of nature through images and content.</p>
+
+  <!-- List with ARIA roles -->
+  <ul role="list">
+    <li role="listitem">Mountains</li>
+    <li role="listitem">Forests</li>
+    <li role="listitem">Rivers</li>
+  </ul>
 	
     <script type="text/javascript" src="./script.js">
 </script>
